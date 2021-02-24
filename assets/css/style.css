@@ -1,4 +1,3 @@
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -7,7 +6,7 @@ body {
   color: #fff;
   background: url("../img/hero-bg.jpeg") top center no-repeat;
   background-size: cover;
-  position: relative;  
+  position: relative;
 }
 
 body::before {
@@ -35,28 +34,33 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
 /*--------------------------------------------------------------
 # Main
 --------------------------------------------------------------*/
-main:before{
+main:before {
   content: "";
-    background: rgba(0, 0, 0, 0.74);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
+  background: rgba(0, 0, 0, 0.74);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 /*--------------------------------------------------------------
 # Video Background
 --------------------------------------------------------------*/
 
-#mainContainer{
+#mainContainer {
   position: absolute;
   display: block;
   top: 0;
@@ -66,28 +70,28 @@ main:before{
   overflow: hidden;
 }
 
-#topVideo{
+#topVideo {
   position: fixed;
-  top:0;
-right: 0;
-bottom: 0;
-min-width: 100%; 
-min-height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
-#mainContainer:before{
+#mainContainer:before {
   content: "";
-    background: rgba(0, 0, 0, 0.74);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
+  background: rgba(0, 0, 0, 0.74);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-@media(max-width:786px){
-  #topVideo{
-      left:-110%;
+@media (max-width: 786px) {
+  #topVideo {
+    left: -110%;
   }
 }
 
@@ -143,8 +147,8 @@ min-height: 100%;
 .back-to-top {
   position: fixed;
   display: none;
-  right: 15px;
-  bottom: 15px;
+  right: 30px;
+  bottom: 125px;
   z-index: 99999;
 }
 
@@ -155,7 +159,7 @@ min-height: 100%;
   font-size: 24px;
   width: 40px;
   height: 40px;
-  background: #ff0000;
+  background: #5c9f24;
   color: #fff;
   transition: all 0.4s;
 }
@@ -238,12 +242,16 @@ min-height: 100%;
   transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
+.nav-menu a:hover:before,
+.nav-menu li:hover > a:before,
+.nav-menu .active > a:before {
   visibility: visible;
   width: 100%;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
   color: #fff;
 }
 
@@ -280,7 +288,9 @@ min-height: 100%;
   color: #2a2a2a;
 }
 
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active > a,
+.nav-menu .drop-down ul li:hover > a {
   color: #5c9f24;
 }
 
@@ -404,7 +414,9 @@ min-height: 100%;
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav a:hover,
+.mobile-nav .active > a,
+.mobile-nav li:hover > a {
   color: #5c9f24;
   text-decoration: none;
 }
@@ -472,10 +484,10 @@ min-height: 100%;
   margin-bottom: -80px;
 }
 
-#hero img{
-  width:250px;
-  height:200px;
-  border-radius: 10%;  
+#hero img {
+  width: 250px;
+  height: 200px;
+  border-radius: 10%;
   background: rgba(255, 255, 255, 0.267);
 }
 
@@ -589,7 +601,7 @@ min-height: 100%;
   width: 100px;
   padding: 15px 0;
   background: rgba(255, 255, 255, 0.12);
-  border-top: 5px solid #ff0000;
+  border-top: 5px solid #5c9f24;
 }
 
 #countdown .countdown div h3 {
@@ -656,7 +668,7 @@ min-height: 100%;
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #ff0000;
+  background: #5c9f24;
   color: #fff;
   transition: 0.3s;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -743,7 +755,7 @@ min-height: 100%;
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
-  z-index: 2;  
+  z-index: 2;
   color: #fff;
 }
 
@@ -778,6 +790,15 @@ section {
   text-transform: uppercase;
 }
 
+.about img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about p {
+  font-size: 1.4rem;
+}
+
 .about .content h3 {
   font-weight: 500;
   line-height: 32px;
@@ -799,7 +820,7 @@ section {
   top: 12px;
   position: absolute;
   font-size: 20px;
-  color: #ff0000;
+  color: #5c9f24;
 }
 
 .about .content p:last-child {
@@ -855,7 +876,7 @@ section {
 }
 
 .services .title::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 50px;
@@ -908,7 +929,9 @@ section {
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
 
-.why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
+.why-us .box:hover span,
+.why-us .box:hover h4,
+.why-us .box:hover p {
   color: #fff;
 }
 
@@ -971,6 +994,11 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
   color: #fff;
+}
+
+.resume img {
+  width: 100%;
+  border-radius: 10px;
 }
 
 .resume .resume-item {
@@ -1036,7 +1064,7 @@ section {
 }
 
 #supporters .supporter-logo {
-  padding: 30px;
+  padding: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1054,7 +1082,6 @@ section {
 #supporters img {
   transition: all 0.4s ease-in-out;
 }
-
 
 /*--------------------------------------------------------------
 # Pricing
@@ -1148,7 +1175,11 @@ section {
   background: #5c9f24;
 }
 
-.pricing .recommended h3, .pricing .recommended h4, .pricing .recommended h4 span, .pricing .recommended ul, .pricing .recommended ul .na {
+.pricing .recommended h3,
+.pricing .recommended h4,
+.pricing .recommended h4 span,
+.pricing .recommended ul,
+.pricing .recommended ul .na {
   color: #fff;
 }
 
@@ -1206,7 +1237,8 @@ section {
   color: #9cdc66;
 }
 
-.faq .faq-list .icon-show, .faq .faq-list .icon-close {
+.faq .faq-list .icon-show,
+.faq .faq-list .icon-close {
   font-size: 24px;
   position: absolute;
   right: 0;
@@ -1307,12 +1339,14 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #ff0000;
+  background: #5c9f24;
   color: #fff;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #ff0000;
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #5c9f24;
   color: #fff;
 }
 
@@ -1373,7 +1407,8 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1388,7 +1423,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #ff0000;
+  background: #5c9f24;
   border: 0;
   padding: 10px 24px;
   color: #fff;
